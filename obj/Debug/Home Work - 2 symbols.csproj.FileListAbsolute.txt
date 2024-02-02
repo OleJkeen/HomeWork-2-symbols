@@ -1,0 +1,8 @@
+D:\VS\All_Home_Works\Home Work - 2 symbols\bin\Debug\Home Work - 2 symbols.exe.config
+D:\VS\All_Home_Works\Home Work - 2 symbols\bin\Debug\Home Work - 2 symbols.exe
+D:\VS\All_Home_Works\Home Work - 2 symbols\bin\Debug\Home Work - 2 symbols.pdb
+D:\VS\All_Home_Works\Home Work - 2 symbols\obj\Debug\Home Work - 2 symbols.csproj.AssemblyReference.cache
+D:\VS\All_Home_Works\Home Work - 2 symbols\obj\Debug\Home Work - 2 symbols.csproj.SuggestedBindingRedirects.cache
+D:\VS\All_Home_Works\Home Work - 2 symbols\obj\Debug\Home Work - 2 symbols.csproj.CoreCompileInputs.cache
+D:\VS\All_Home_Works\Home Work - 2 symbols\obj\Debug\Home Work - 2 symbols.exe
+D:\VS\All_Home_Works\Home Work - 2 symbols\obj\Debug\Home Work - 2 symbols.pdb
