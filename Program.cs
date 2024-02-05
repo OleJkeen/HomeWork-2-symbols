@@ -37,10 +37,12 @@ namespace Home_Work___2_symbols
                     break;
                 }    
             }
+            
             if (currentLength != 0)
             {
                 isValid = false;
             }
+            
             if (isValid)
             {
                 Console.WriteLine($"Строка корректная: {isValid}, максимальная глубина: {maxLength}");
