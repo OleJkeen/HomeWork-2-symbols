@@ -14,10 +14,12 @@ namespace Home_Work___2_symbols
             int currentLength = 0;
             int maxLength = 0;
             bool isValid = true;
+            char leftParentheses = '(';
+            char rightParentheses = ')';
 
             foreach (var symbol in text)
             {
-                if (symbol == '(')
+                if (symbol == leftParentheses)
                 {
                     currentLength++;
                     if (currentLength > maxLength)
@@ -25,21 +27,29 @@ namespace Home_Work___2_symbols
                         maxLength = currentLength;
                     }
                 }
-                else if (symbol == ')')
+                else if (symbol == rightParentheses)
                 {
                     currentLength--;
                 }
                 if (currentLength < 0)
+                {
                     isValid = false;
-                break;
+                    break;
+                }    
             }
-
             if (currentLength != 0)
             {
                 isValid = false;
             }
-
-            Console.WriteLine($"Строка корректная: {isValid}, максимальная глубина: {maxLength}");
+            if (isValid)
+            {
+                Console.WriteLine($"Строка корректная: {isValid}, максимальная глубина: {maxLength}");
+            }
+            else
+            {
+                Console.WriteLine("Некорректная строка " + text);
+            }
+            
             Console.ReadLine();
         }
     }
